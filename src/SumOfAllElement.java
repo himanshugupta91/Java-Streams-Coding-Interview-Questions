@@ -8,6 +8,6 @@ public class SumOfAllElement {
         int sum = numbers.stream()
                 .mapToInt(Integer::intValue)
                 .sum();
-        System.out.println(sum);
+        System.out.println("sum : " + sum);
     }
 }
